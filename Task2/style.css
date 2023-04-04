@@ -1,0 +1,203 @@
+@import 'utilities.css';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+    /* background-color: #E5C0C8; */
+}
+
+header{
+    /* background-color: rgb(2, 58, 95); */
+    background-image: linear-gradient(to right, rgb(211, 194, 194), black);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 70% 87%, 0 100%);
+    height:635px;
+
+}
+
+.container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+nav .left a{
+    color: white;
+    text-decoration: none;
+    margin-right: 2.7rem;
+    text-transform: uppercase;
+}
+nav{
+    padding: 1.5rem 0;
+}
+nav .logo{
+    margin-right: 3rem;
+
+}
+nav .logo img{
+    border-radius: 10px;
+}
+nav a:hover{
+    color: black;
+    background-color: white;
+    padding: .7rem;
+    transition: all .4s ease;
+    border-radius: 10%;
+  
+}
+.theuv .right img{
+    width: 300px;
+
+}
+.theuv .left{
+    /* color: wheat; */
+    color: rgb(25, 59, 109);
+}
+.theuv .left span{
+    /* color: rgb(25, 59, 109); */
+    color: wheat;
+}
+.theuv .left h1{
+    font-size: 3.5rem;
+    font-weight: 100;
+    margin-bottom: 2rem;
+}
+.theuv .left p{
+    line-height: 1.7rem;
+    margin-bottom: 2rem;
+}
+
+section{
+    padding: 7rem 0;
+}
+
+.about{
+    
+    background-color: #E8DFE0;
+    /* clip-path: polygon(0 0, 100% 0%, 100% 100%, 70% 87%, 0 100%); */
+}
+.about .container img{
+    width: 320px;
+    border-radius: 5%;
+}
+.about .about-txt{
+    margin: 6rem;
+    width: 500px;
+    padding: 2rem;
+}
+section.about h1{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    font-weight: 400;
+}
+section.about h1 span{
+    color: rgb(35, 68, 119);
+}
+section.about h3{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+
+}
+
+section.about p{
+    font-family: 'Lato', sans-serif;
+    color: rgb(97, 85, 85);
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+.about .container .social a img
+{
+    width: 50px;
+    padding: .4rem;
+    margin-top: 1rem;
+    border-radius: 25%;
+}
+.about .container .social a img:hover{
+    
+    transition-duration: 1.5s;
+    rotate: 360deg;
+    
+}
+section.about .social a
+{
+    margin: .3rem;
+    padding: .2rem;
+    text-decoration: none;
+}
+
+
+
+/* Skills Section */
+.skill-container{
+    background-color: #191919;
+    padding: 20px;
+}
+.skillheading{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    padding: 10px;
+    font-weight: 400;
+}
+.container2{
+    display: flex;
+    font-size: 20px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+}
+.skills ul li{
+    color: white;
+    margin: 0px 30px;
+    padding: 4px 5px;
+}
+.skills ul li:hover, .project a:hover{
+    color: rgb(35, 68, 119);
+}
+
+
+
+#projects{
+    background-color: #E8DFE0;
+}
+
+.projects #head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-weight: 400;
+    color: black;
+}
+
+.project{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    padding-bottom: 2rem;
+    /* margin-bottom: 2rem; */
+    /* background-color: #E8DFE0; */
+
+}
+.project a{
+    text-decoration: none;
+    color: #000;
+}
+
+.projects h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#footer{
+    background-color: #000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 4px;
+}
