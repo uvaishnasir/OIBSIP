@@ -1,0 +1,26 @@
+#navbar {
+    flex-direction: column;
+}
+#garments {
+    flex-wrap: wrap;
+}
+#brands {
+    flex-wrap: wrap;
+}
+#contact-box form {
+    width: 80%;
+}
+#garments .box img {
+    width: 250px;
+    height: 150px;
+    display: block;
+    margin: auto auto;
+}
+#garments .box {
+    width: 250px;
+}
+
+#contact-box button {
+    width: 100px;
+    padding: 7px;
+}
